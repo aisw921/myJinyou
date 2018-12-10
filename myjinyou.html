@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>myjinyou</title>
+<link style="text/css" rel="stylesheet" href="css/myjinyou.css" />
+<script type="text/javascript" src="jquery-1.4.4.min.js"></script>
+<script type="text/javascript">
+	var one;
+	var two;
+	one = setInterval('auto1()',2000);
+	function auto1(){
+			$('#wrap').animate({
+					scrollLeft:'+=950'	
+			},3000);
+			var scrollleft = $('#wrap').scrollLeft();
+			if(scrollleft>=600){
+				$('#wrap').animate({
+					scrollLeft:0	
+			    },1);
+			}
+			clearInterval(one);
+			two = setTimeout('auto1()',6000);
+	}
+		
+	var three;
+	var four;
+		three = setInterval('auto2()',3000);
+	function auto2(){
+			$('#block4').animate({
+					scrollLeft:'+=310'	
+			},3000);
+			var scrollleft = $('#block4').scrollLeft();
+			if(scrollleft>=600){
+				$('#block4').animate({
+					scrollLeft:0	
+			    },1);
+			}
+			clearInterval(three);
+			four = setTimeout('auto2()',6000);
+	}
+</script>
+
+<body>
+<div id="w">
+	<div id="top">
+    	<img class="topone"src="images/llogo.jpg" />
+       <span>English</span>
+        <img class="toptwo"src="images/gb.gif" />
+	</div>
+    <div id="block1">
+     <ul>
+      	<li>公司主页</li>
+        <li>关于我们</li>
+        <li产品展示</li>
+        <li>新闻中心</li>
+        <li>招聘信息</li>
+        <li>留言反馈</li>
+        <li>金友之家</li>
+    </ul>
+    </div>
+    <div id="block2">
+			<div id="wrap">
+    			<ul id="img">
+        		<li><a href=""><img src="images/banner001.jpg" /></a></li>
+            	<li><img src="images/banner002.jpg" /></li>
+            	<li><img src="images/banner003.jpg" /></li>
+        		</ul>
+    
+    		</div>
+     </div>
+     <div id="content">
+     	<div id="one">
+     		<div id="block3">
+     		<img src="images/more.gif" />
+     		</div>
+    
+   		 	<div id="block4">
+    			<ul id="block4img">
+        		<li>
+            	<img src="images/cptj2.jpg" />
+            	<p>超大快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj4.jpg" />
+            	<p>大快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj6.jpg" />
+            	<p>中快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj55.jpg" />
+            	<p>小快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj22.jpg" />
+            	<p>超小快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj44.jpg" />
+            	<p>中中快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj6.jpg" />
+            	<p>大快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj4.jpg" />
+            	<p>大大快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj5.jpg" />
+            	<p>超小小快精煤</p>
+            	</li>
+            	<li>
+            	<img src="images/cptj6.jpg" />
+            	<p>中小快精煤</p>
+            	</li>
+        
+        		</ul>
+    		</div>
+         </div>
+        
+        <div id="two">
+    		<div  id="two_left">
+            	<div id="two_left_top">
+                	<img class="myimg"src="images/more.gif" />
+                </div>
+                <div id="two_left_content">
+            	<img src='images/index_NewsPic.jpg' />
+                <h3>未来几年煤炭需求快速...</h3>
+                <br/><br/>
+                <span>&nbsp;&nbsp;&nbsp;我国是世界上最早开发和利用煤炭资源的国家。煤炭的开发与利用，有利地推动了社会发展和进步，极大地便利和丰富了人民的生活。...[详细]</span>
+               <table border="0"width="340"height="120">
+               		<tr><td>-　煤质化验设备之如何用艾氏剂法测定…</td><td>2013/12/14</td></tr>
+                    <tr><td>-　煤焦用煤对煤质的要求…</td><td>2013/12/11</td></tr>
+                    <tr><td>-　洗煤厂所需设备…</td><td>2013/12/10</td></tr>
+                    <tr><td>-　焦炭质量对高炉炼铁的影响…</td><td>2013/12/10</td></tr>
+               </table>
+               </div>
+        
+            </div>
+            <div id="two_right">
+            	<div id="two_right_top">
+                  <img src='images/more.gif' />
+                </div>
+                <div id="two_right_content">
+                	<img src="images/gywm.jpg"/>
+                    <span>　武安市金友经贸有限公司成立于2008年9月份注册资金5000万元现有职工178名主要经营:煤炭加工和销售,下设洗煤厂个煤炭经贸公司,洗煤厂设计生产能力50万吨/年,煤炭经贸公司年销售原、精煤80万吨.<br/>　于武安市以南13公里处东距邯郸市40公里…</span>
+                </div>
+            
+            </div>
+    
+        </div>
+        <div id="three">
+        	<div id="three_top">
+             <img src='images/more.gif' />
+            </div>
+            <table border="0"width="643"height="220">
+            	<tr>
+                <td><img src='images/cpzs1.jpg' /><p>超大快精煤</p></td>
+                <td><img src='images/cpzs2.jpg' /><p>中块煤</p></td>
+                <td><img src='images/cpzs3.jpg' /><p>小快煤炭</p></td>
+                <td><img src='images/cpzs4.jpg' /><p>精品煤炭</p></td>
+                </tr>
+                <tr>
+                <td><img src='images/cpzs5.jpg' /><p>精致中快煤</p></td>
+                <td><img src='images/cpzs6.jpg' /><p>洗煤厂出煤</p></td>
+                <td><img src='images/cpzs7.jpg' /><p>洗煤厂</p></td>
+                <td><img src='images/cpzs8.jpg' /><p>煤场</p></td>
+                </tr>
+            </table>
+        </div>
+        
+      </div>
+    <div id="text">
+    	<div id="text_one">
+        	<div id="text_one_top">
+             <img src='images/more.gif' />
+            </div>
+            <div id="text_one_content">
+            	<select><option>产品展示</option></select>
+                <br/><br/>
+                <input class="t1"type="text" />
+                <br/><br/>
+                <input class="b1"type="button" value="搜索"/>
+            </div>
+        </div>
+        <div id="text_two">
+        	<div id="text_two_top">
+             <img src='images/more.gif' />
+            </div>
+            <div id="text_two_content">
+            <p>-　实验室技术人员</p>
+            <p>-　文员</p>
+            <p>-　销售代表</p>
+            <p>-　销售主管</p>
+            <p>-　营销总监</p>
+            </div>
+        </div>
+        <div id="text_three">
+        	<div id="text_three_top">
+             <img src='images/more.gif' />
+            </div>
+            <div id="text_three_content">
+            <p>地址: 河北省邯郸市武安市伯延镇庄宴村西</p>
+            <p>邮编: 056000</p>
+            <p>联系人: 万龙表</p>
+            <p>电话: 15613064229</p>
+            <p>传真: 021-58888888监</p>
+            <p>手机: 15613064229</p>
+            <p>邮箱: 962138215@qq.com</p>
+            </div>
+        </div>
+        <div>
+        	<img src="images/tel.gif" />
+        </div>
+    </div>
+    
+    <div  id="six">
+    	<p>Copyright ©2004-2011 武安金友经贸有限公司www.netgather.com All Rights Reserved.</p>
+        <p>地址: 河北省邯郸市武安市伯延镇庄宴村西　邮编: 056000联系人: 万龙</p>
+        <p>电话: 15613064229　传真: 021-58888888　手机: 15613064229</p>
+        <p>邮箱: 962138215@qq.com </p>
+    
+    </div>
+
+
+</div>
+</body>
+</html>
